@@ -1,0 +1,100 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nav {
+    background-color: #d82c2c;
+}
+
+.link {
+    text-align: center;
+    background-color: #d82c2c;
+}
+.navigation {
+    margin-right: auto;
+    margin-left: auto;
+    vertical-align: baseline;
+    max-width: 600px;
+}
+
+.item {
+    display: inline-block;
+    text-align: center;
+    width: 125px;
+    list-style: none;
+}
+ .navigation-second .item:hover .catalog {
+	color: black;
+    background-color: #c76565;
+    font-weight: bold;
+}
+
+.item:hover .main {
+	color: black;
+    background-color: #c76565;
+    font-weight: bold;
+}
+
+.navigation-second:hover .item {
+    color: black;
+    background-color: #c76565;
+}
+.navigation-third:hover .drop {
+    color: black;
+    background-color: #c76565;
+}
+.link:hover {
+    font-weight: bold;
+    background-color: #c76565;
+}
+
+.menu .link {
+	padding: 15px;
+	display: block;
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+}
+
+.menu .link:hover {
+	background-color: #c76565;
+	color: rgb(0, 0, 0);
+}
+
+.menu > .navigation  .item {
+	position: relative;
+}
+
+.menu .item .navigation-second , .navigation-third {
+	position: absolute;
+	display: none;
+	min-width: 150px;
+    list-style: none;
+}
+
+.menu .item > .navigation-second .item .navigation-third {
+	position: absolute;
+	right: -110px;
+	top: 0;
+}
+
+.menu .item:hover > .navigation-second {
+	display: block;
+}
+.menu .item:hover > .navigation-third {
+	display: block;
+}
+main {
+    margin-right: auto;
+    margin-left: auto;
+    vertical-align: baseline;
+    max-width: 600px;
+}
+
+.text {
+    text-align: center;
+    background-color: cornsilk;
+}
